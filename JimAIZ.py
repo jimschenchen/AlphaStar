@@ -66,7 +66,7 @@ class JimAI(sc2.BotAI):
         何时扩张 简化版
         基地数量少于3个就立即扩张
         """
-        if self.units(HATCHERY).amount < 2 and self.can_afford(HATCHERY):
+        if self.units(HATCHERY).amount < 2 and self.can_afford(HATCHERY) and not self.already_pending(HATCHERY):
             await self.expand_now()     
             
     async def hatch_zergtech(self):
