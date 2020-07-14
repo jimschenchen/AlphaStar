@@ -1,5 +1,9 @@
 # AlphaStar
  AlphaStar Trial
+ Trying to create a zerg FakeAI in StarCraftII.
+ 
+## Zerg
+Roach Rush only...
 
 source from: https://github.com/ClausewitzCPU0/SC2AI
 
